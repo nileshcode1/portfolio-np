@@ -61,7 +61,7 @@ export default function Banner() {
             <Heading textAlign={"center"}>Nilesh Pandey</Heading>
 
             <Text fontSize={"sm"} textAlign="center">
-              Hey, I am a Computer science graduate skilled in Web and Android
+              Hey, I am a Computer science graduate, skilled in Web and Android
               app development
               <Tag mt={1} variant={"solid"}>
                 Rajiv Gandhi Institute of Petroleum Technology
