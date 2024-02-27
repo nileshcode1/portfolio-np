@@ -71,6 +71,7 @@ const Projects = () => {
 
   return (
     <Container
+     id="projects"
       maxWidth="7xl"
       maxHeight={"3xl"}
       overflowX={"auto"}

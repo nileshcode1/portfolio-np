@@ -4,7 +4,7 @@ import * as React from 'react'
 export default function Freelancer() {
     return (
 
-        <Box id='freelance' as="section" >
+        <Box id='contact' as="section" >
             <Container py={{ base: '16', md: '24' }}>
                 <Stack spacing={{ base: '8', md: '10' }}>
                     <Stack spacing={{ base: '4', md: '5' }} align="center">

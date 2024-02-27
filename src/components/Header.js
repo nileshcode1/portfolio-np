@@ -21,7 +21,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import logo from '../images/NP.png'
+import logo from "../images/NP.png";
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure();
@@ -53,8 +53,12 @@ export default function Header() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }} alignItems='center'>
-          <Image p={2} src={logo} height='20' />
+        <Flex
+          flex={{ base: 1 }}
+          justify={{ base: "center", md: "start" }}
+          alignItems="center"
+        >
+          <Image p={2} src={logo} height="20" />
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />
@@ -67,19 +71,21 @@ export default function Header() {
           direction={"row"}
           spacing={6}
         >
-          <Button
-            display={{ base: "inline-flex", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"white"}
-            bg={"primary.700"}
-            href={"#"}
-            _hover={{
-              bg: "primary.900",
-            }}
-          >
-            View Resume
-          </Button>
+          <a href="https://drive.google.com/file/d/1zWnxnjXjziGFMTn2v2s9oUPcVRRstEu2/view?usp=drive_link">
+            <Button
+              display={{ base: "inline-flex", md: "inline-flex" }}
+              fontSize={"sm"}
+              fontWeight={600}
+              color={"white"}
+              bg={"primary.700"}
+              href={"#"}
+              _hover={{
+                bg: "primary.900",
+              }}
+            >
+              View Resume
+            </Button>
+          </a>
         </Stack>
       </Flex>
 
@@ -244,7 +250,7 @@ const MobileNavItem = ({ label, children, href }) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.label} py={2} href={child.href} color='gray.700'>
+              <Link key={child.label} py={2} href={child.href} color="gray.700">
                 {child.label}
               </Link>
             ))}
@@ -279,7 +285,7 @@ const NAV_ITEMS = [
     href: "#projects",
   },
   {
-    label: "Freelance",
-    href: "#freelance",
+    label: "Contact",
+    href: "#contact",
   },
 ];
