@@ -27,7 +27,7 @@ export default function CTA() {
             fontWeight="800"
             color={"primary.800"}
           >
-            Let's Contact
+            Let's Connect
           </Heading>
           {/* <Text color="gray.700" maxW="2xl" textAlign="center" fontSize="md">
                         I have spent enough time with simple and complex full fleged projects. I have created apps, website, scripts and have also coded and deployed admin panels and database/backend on cloud.I love to take on new challenges and work on experimental projects.
